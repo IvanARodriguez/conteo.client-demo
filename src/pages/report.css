@@ -1,0 +1,73 @@
+.customCalendar,
+.rdrDays,
+.rdrMonth,
+.rdrCalendarWrapper,
+.rdrDateDisplayWrapper,
+.rdrDateInput,
+.rdrDayDisabled {
+  background: transparent;
+  color: inherit !important;
+  border-color: rgba(128, 128, 128, 0.438);
+}
+.customCalendar .rdrStaticRange:hover * {
+  background: rgb(28, 28, 28) !important;
+  color: inherit !important;
+  outline: 1px solid rgba(128, 128, 128, 0.438) !important;
+}
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+
+.customCalendar {
+  border-radius: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  overflow: hidden;
+}
+
+.rdrDayPassive,
+.rdrDayDisabled {
+  opacity: 0.3;
+}
+
+.rdrDay .rdrDayNumber span {
+  color: inherit;
+}
+
+.rdrDay > .rdrDayInPreview {
+  background: #23769f38;
+}
+
+.rdrMonthAndYearPickers select option {
+  width: 100% !important;
+  background: inherit !important;
+  color: black !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.rdrMonthAndYearPickers .rdrMonthPicker select,
+.rdrYearPicker select {
+  width: 100%;
+  display: flex;
+  place-content: start;
+  place-items: center;
+  text-align: start;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: inherit;
+}
+
+.rdrMonthPicker,
+.rdrYearPicker {
+  width: 100%;
+  background-color: var(--primary-color);
+  border-radius: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .rdrDefinedRangesWrapper {
+    display: none;
+    flex: 1;
+  }
+}

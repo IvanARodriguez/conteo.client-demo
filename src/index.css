@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #1993d0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+.MuiDialog-container {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+}
+
+.menu_item {
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: '3rem';
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #414141;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 30rem;
+  cursor: pointer !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+.remove {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Playwrite GB S';
+  src: url('./assets/PlaywriteGBS-Regular.ttf');
+}
