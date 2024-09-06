@@ -32,3 +32,34 @@ The Conteo Client Demo is a simplified invoicing and billing application. It all
 - **Typescript**: for type safety during development
 - **Overmind**: For state management
 - **MaterialUI**: For styling
+
+## Folder Structure
+
+```perl
+conteo.client-demo/
+├── public/               # Public assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Page components (e.g., Clients, Invoices)
+│   ├── store/            # Overmind state management & configuration
+│   ├── api/              # API service definitions
+│   ├── hooks/            # Custom Hooks configurations
+│   ├── assets/           # Static assets
+│   ├── config/           # Application configurations such as theme
+│   ├── types/            # Application global types
+│   ├── util/             # Functions to help with format
+│   ├── Disconnected.tsx/ # Fallback page to be handle by server
+│   └── App.tsx           # Main application component
+├── README.md             # Project documentation
+└── package.json          # Project metadata and dependencies
+```
+
+<p align="center">
+  <img alt="Account summary" src="./showcase/conteo1.webp" style="max-width: 1000px; border-radius: 10px;">
+</p>
+<p align="center">
+  <img alt="Account summary" src="./showcase/conteo2.webp" style="max-width: 1000px; border-radius: 10px;">
+</p>
+<p align="center">
+  <img alt="Account summary" src="./showcase/Screenshot 2024-09-06.png" style="max-width: 1000px; border-radius: 10px;">
+</p>
