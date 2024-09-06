@@ -2,6 +2,10 @@
 
 This repository is a demo version of the Conteo Client Side application, developed to showcase my front-end development skills, particularly in React, TypeScript, and state management using Overmind.js. The original project is proprietary; this demo provides a simplified version to demonstrate key functionalities and coding practices.
 
+<p align="center">
+  <img alt="Account summary" src="./showcase/accountinc-conteo.png" style="max-width: 1000px; border-radius: 10px;">
+</p>
+
 ## Overview
 
 The Conteo Client Demo is a simplified invoicing and billing application. It allows users to manage clients, create and edit invoices, and track payments. This demo focuses on showcasing:
@@ -15,6 +19,7 @@ The Conteo Client Demo is a simplified invoicing and billing application. It all
 ## Demo Features
 
 - **Client Management**: Add, view, and edit client details.
+- **Dark and light mode**: Add, view, and edit client details.
 - **Progressive Web App**: Use Conteo as a standalone application.
 - **Invoice Management**: Create, view, and manage invoices.
 - **Payment Tracking**: Record and manage payments against invoices.
